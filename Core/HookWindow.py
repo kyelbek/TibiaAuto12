@@ -29,7 +29,7 @@ if data['Platform'] == "Windows":
     hwnd = GetHWND('Windowed Projector')
 
     if hwnd == 0:
-        hwnd = GetHWND('Projetor em janela')
+        hwnd = GetHWND('Podgląd w oknie')
 
     if hwnd == 0:
         exit(1)
